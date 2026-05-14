@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ollama --version)",
+      "Bash(ollama list *)",
+      "PowerShell(ollama *)",
+      "WebSearch",
+      "WebFetch(domain:ollama.com)",
+      "WebFetch(domain:docs.ollama.com)",
+      "PowerShell(winget install *)",
+      "PowerShell(ollama list *)",
+      "PowerShell(ollama pull *)",
+      "PowerShell(python --version 2>&1; where.exe python 2>&1)",
+      "PowerShell(Start-Process \"C:\\\\Python314\\\\python.exe\" -ArgumentList \"C:\\\\Users\\\\admin\\\\Desktop\\\\ollama and claudecode\\\\proxy.py\" -PassThru -Wait -RedirectStandardOutput \"C:\\\\Users\\\\admin\\\\Desktop\\\\ollama and claudecode\\\\proxy_start.log\" -RedirectStandardError \"C:\\\\Users\\\\admin\\\\Desktop\\\\ollama and claudecode\\\\proxy_err.log\")",
+      "PowerShell(Get-ChildItem *)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:platform.kimi.ai)"
+    ]
+  }
+}
